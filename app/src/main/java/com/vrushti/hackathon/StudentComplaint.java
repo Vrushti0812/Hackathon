@@ -6,11 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class StudentComplaint extends AppCompatActivity {
-    TextView textView;
+    EditText textView;
     Button submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class StudentComplaint extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                textView.getText().toString();
                 Toast.makeText(StudentComplaint.this, "Thank you for your reviews.", Toast.LENGTH_SHORT).show();
             }
         });

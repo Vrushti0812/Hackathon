@@ -13,5 +13,6 @@ public class StudentInfo extends AppCompatActivity {
         setContentView(R.layout.activity_student_info);
         Window window = this.getWindow();
         window.setStatusBarColor(this.getResources().getColor(R.color.green3));
+
     }
 }

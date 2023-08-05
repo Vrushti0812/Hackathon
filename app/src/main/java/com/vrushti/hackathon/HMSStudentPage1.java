@@ -11,7 +11,7 @@ import android.widget.Button;
 import com.google.android.material.internal.DescendantOffsetUtils;
 
 public class HMSStudentPage1 extends AppCompatActivity {
-    Button student , mess , outing , complaints , night , parlour , cleaning;
+    Button mess , outing , complaints , night , parlour , cleaning;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class HMSStudentPage1 extends AppCompatActivity {
         setContentView(R.layout.activity_hmsstudent_page1);
         Window window = this.getWindow();
         window.setStatusBarColor(this.getResources().getColor(R.color.green3));
-        student = findViewById(R.id.button2);
+
         mess = findViewById(R.id.button3);
         outing = findViewById(R.id.button4);
         complaints = findViewById(R.id.button5);
@@ -27,13 +27,6 @@ public class HMSStudentPage1 extends AppCompatActivity {
         parlour = findViewById(R.id.button7);
         cleaning = findViewById(R.id.button8);
 
-        student.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HMSStudentPage1.this , StudentInfo.class);
-                startActivity(intent);
-            }
-        });
         mess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
