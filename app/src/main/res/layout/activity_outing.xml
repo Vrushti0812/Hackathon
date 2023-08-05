@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
 
     tools:context=".Outing"
-    android:backgroundTint="@color/green1">
+    android:background="@color/green1">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
@@ -20,22 +21,33 @@
         android:background="@color/apbar"
         android:gravity="center"
         android:textAlignment="center"
-        app:title="Outing"
+        app:title="Outing Form"
         app:titleTextColor="@color/black"
         app:navigationIcon="@drawable/baseline_arrow_back_24"
         tools:ignore="MissingConstraints" />
 
 
+    <ImageView
+        android:layout_width="365dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/mountain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/regno"
         android:layout_width="369dp"
         android:layout_height="52dp"
-        android:layout_marginTop="244dp"
+        android:layout_marginTop="336dp"
         android:background="@drawable/custom_edittext"
         android:backgroundTint="@color/green2"
         android:ems="10"
+        android:hint="   Registration Number"
         android:inputType="text"
-        android:text="   Registration Number"
+        android:textColor="@color/black"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,44 +57,38 @@
         android:id="@+id/phnno"
         android:layout_width="369dp"
         android:layout_height="52dp"
-        android:layout_marginTop="316dp"
+        android:layout_marginTop="404dp"
         android:background="@drawable/custom_edittext"
         android:backgroundTint="@color/green2"
         android:ems="10"
+        android:hint="   Phone Number"
         android:inputType="text"
-        android:text="   Phone Number"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/heading"
-        android:layout_width="267dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="80dp"
-        android:gravity="center"
-        android:text="Outing Form"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <EditText
-        android:id="@+id/regnumber"
-        android:layout_width="369dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="172dp"
+        android:id="@+id/name"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="268dp"
         android:background="@drawable/custom_edittext"
         android:backgroundTint="@color/green2"
-        android:ems="10"
+
+        android:drawablePadding="10dp"
+        android:hint="Name"
         android:inputType="text"
-        android:text="   Name"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -94,11 +100,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="308dp"
+        android:background="@color/black"
+
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Spinner
@@ -109,20 +118,22 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="308dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
 
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/gbtn"
         android:layout_width="142dp"
         android:layout_height="42dp"
-        android:layout_marginBottom="252dp"
-        android:text="Generate QR"
+        android:layout_marginBottom="248dp"
         android:backgroundTint="@color/green3"
+        android:text="Generate QR"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +150,7 @@
         app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent" />
 
-  
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
