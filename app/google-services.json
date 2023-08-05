@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1003232003387",
+    "project_id": "hackday-9451a",
+    "storage_bucket": "hackday-9451a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003232003387:android:50df7481e0e48e6381e31e",
+        "android_client_info": {
+          "package_name": "com.vrushti.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003232003387-t8e16ppm8lfkoti4g1hru1glqit51mgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDow8pFA6kzC9MHSSi8t9yJlP7akSRxgWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003232003387-t8e16ppm8lfkoti4g1hru1glqit51mgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
