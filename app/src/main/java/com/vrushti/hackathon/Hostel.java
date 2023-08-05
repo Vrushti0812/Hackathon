@@ -7,40 +7,23 @@ import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class Hostel extends AppCompatActivity {
-    int CurrentProgress = 0;
-    ProgressBar  progressBar;
-    Button start;
+
+    Button b1 , b2 , b3;
+    TextView t1 , t2 , t3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hostel);
-
-        progressBar = findViewById(R.id.progreebar);
-        start = findViewById(R.id.btnStart);
-
-        CountDownTimer countDownTimer = new CountDownTimer(11*1000, 1000) {
-            @Override
-            public void onTick(long millisUntilFinished) {
-                CurrentProgress= CurrentProgress + 10;
-                progressBar.setProgress(CurrentProgress);
-                progressBar.setMax(50);
+      
 
 
-            }
 
-            @Override
-            public void onFinish() {
 
-            }
-        };
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                countDownTimer.start();
-            }
-        });
     }
 }

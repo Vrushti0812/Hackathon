@@ -14,9 +14,7 @@ import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
-import java.util.zip.Inflater;
+
 
 public class Canteen extends AppCompatActivity {
 
@@ -57,10 +55,6 @@ Button submit;
                 showBill();
             }
         });
-
-
-
-
     }
     private void showBill() {
         int totalPrice = 0;
