@@ -2,6 +2,7 @@ package com.vrushti.hackathon;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -28,6 +29,9 @@ public class StudentComplaint extends AppCompatActivity {
             public void onClick(View v) {
                 textView.getText().toString();
                 Toast.makeText(StudentComplaint.this, "Thank you for your reviews.", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(StudentComplaint.this,HMSStudentPage1.class);
+                startActivity(intent);
+
             }
         });
     }

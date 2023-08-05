@@ -15,6 +15,11 @@ import android.widget.EditText;
 
 public class Canteen extends AppCompatActivity {
 
+    private RecyclerView recyclerView;
+//    private RecyclerViewAdapter adapter;
+//    private List<Item> itemList;
+
+
 EditText e1 , e2 , e3 , e4 , e5,e6;
 Button submit;
 
@@ -25,6 +30,22 @@ Button submit;
         setContentView(R.layout.activity_canteen);
         Window window = this.getWindow();
         window.setStatusBarColor(this.getResources().getColor(R.color.green3));
+
+//
+//        recyclerView = findViewById(R.id.recyclerView);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+//
+//        itemList = new ArrayList<>();
+//        // Add items to the list (replace these with your actual data)
+//        itemList.add(new Item("Item 1"));
+//        itemList.add(new Item("Item 2"));
+//        itemList.add(new Item("Item 3"));
+//        // Add more items as needed
+//
+//        adapter = new RecyclerViewAdapter();
+//        recyclerView.setAdapter(adapter);
+//        adapter.submitList(itemList);
+
         e1 = findViewById(R.id.e1);
         e2 = findViewById(R.id.e2);
         e3 = findViewById(R.id.e3);
@@ -39,6 +60,7 @@ Button submit;
                 showBill();
             }
         });
+
 
 
 
