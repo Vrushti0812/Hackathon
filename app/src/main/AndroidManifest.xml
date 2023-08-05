@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Hackathon"
         tools:targetApi="31">
         <activity
+            android:name=".Cleaning"
+            android:exported="false" />
+        <activity
+            android:name=".Parlour"
+            android:exported="false" />
+        <activity
+            android:name=".Canteen"
+            android:exported="false" />
+        <activity
+            android:name=".StudentComplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Outing"
+            android:exported="false" />
+        <activity
+            android:name=".Mess"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInfo"
+            android:exported="false" />
+        <activity
             android:name=".Complaints"
             android:exported="false" />
         <activity
