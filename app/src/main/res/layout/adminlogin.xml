@@ -55,25 +55,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="40dp"
-                android:background="@drawable/custom_edittext"
-<<<<<<< Updated upstream
-                android:drawableLeft="@drawable/baseline_email_24"
-                android:drawablePadding="8dp"
-                android:shadowColor="@color/grey"
-                android:backgroundTint="@color/skyblue"
-                android:hint="Email"
-=======
-                android:backgroundTint="@color/skyblue"
-                android:drawableLeft="@drawable/baseline_person_24"
-                android:drawablePadding="8dp"
-                android:hint="Username"
-                android:inputType="text"
->>>>>>> Stashed changes
-                android:paddingLeft="10dp"
-                android:shadowColor="@color/grey"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
 
+                android:backgroundTint="@color/grey"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"/>
             <EditText
                 android:id="@+id/password"
                 android:layout_width="match_parent"
