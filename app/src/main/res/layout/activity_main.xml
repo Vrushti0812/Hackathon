@@ -62,9 +62,6 @@
         android:backgroundTint="@color/green2"
         android:text="Login as Admin"
         android:textColor="@color/black"
-
-
-
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
