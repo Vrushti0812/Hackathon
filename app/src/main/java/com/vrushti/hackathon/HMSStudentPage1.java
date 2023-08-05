@@ -12,6 +12,6 @@ public class HMSStudentPage1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hmsstudent_page1);
         Window window = this.getWindow();
-        window.setStatusBarColor(this.getResources().getColor(R.color.green3));
+        window.setStatusBarColor(this.getResources().getColor(R.color.apbar));
     }
 }
