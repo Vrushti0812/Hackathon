@@ -50,7 +50,9 @@ public class HMSStudentPage1 extends AppCompatActivity {
         complaints.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showComplaintDialog();
+                Intent intent = new Intent(HMSStudentPage1.this, StudentComplaint.class);
+                startActivity(intent);
+//                showComplaintDialog();
             }
         });
         night.setOnClickListener(new View.OnClickListener() {
@@ -121,40 +123,39 @@ public class HMSStudentPage1 extends AppCompatActivity {
 
     }
 
-    private void showComplaintDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Submit Complaint");
-
-        // Inflate the complaint_dialog.xml layout
-        View view = getLayoutInflater().inflate(R.layout.complaint_dialog, null);
-        builder.setView(view);
-
-         EditText complaintEditText = view.findViewById(R.id.et);
-
-        builder.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                // Get the user's complaint text from the EditText
-                String complaintText = complaintEditText.getText().toString().trim();
-
-                // Process the complaint, you can send it to your server or store it in a database
-                // For this example, we'll just show a Toast message
-                if (!complaintText.isEmpty()) {
-                    Toast.makeText(HMSStudentPage1.this, "Complaint submitted: " + complaintText, Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(HMSStudentPage1.this, "Please enter your complaint.", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-
-        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss(); // Dismiss the dialog when "Cancel" is clicked
-            }
-        });
-
-        AlertDialog dialog = builder.create();
-        dialog.show();
+//    private void showComplaintDialog() {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setTitle("Submit Complaint");
+//
+//        // Inflate the complaint_dialog.xml layout
+//        View view = getLayoutInflater().inflate(R.layout.complaint_dialog, null);
+//        builder.setView(view);
+//
+//         EditText complaintEditText = view.findViewById(R.id.et);
+//
+//        builder.setPositiveButton("Submit", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                // Get the user's complaint text from the EditText
+//                String complaintText = complaintEditText.getText().toString().trim();
+//
+//                // Process the complaint, you can send it to your server or store it in a database
+//                // For this example, we'll just show a Toast message
+//                if (!complaintText.isEmpty()) {
+//                    Toast.makeText(HMSStudentPage1.this, "Complaint submitted: " + complaintText, Toast.LENGTH_LONG).show();
+//                } else {
+//                    Toast.makeText(HMSStudentPage1.this, "Please enter your complaint.", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        });
+//
+//        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                dialog.dismiss(); // Dismiss the dialog when "Cancel" is clicked
+//            }
+//        });
+//
+//        AlertDialog dialog = builder.create();
+//        dialog.show();
     }
-}

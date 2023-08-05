@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:background="@color/green1"
     tools:context=".StudentComplaint">
+
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
@@ -23,25 +25,38 @@
         app:navigationIcon="@drawable/baseline_arrow_back_24"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="396dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/complain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_width="354dp"
+        android:layout_height="433dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/new_border"
+        android:backgroundTint="@color/green3"
         app:cardCornerRadius="40dp"
         app:cardElevation="20dp"
-        android:background="@drawable/new_border"
-        android:backgroundTint="@color/green3">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <EditText
             android:id="@+id/textView"
-            android:layout_width="348dp"
-            android:layout_height="461dp"
-            android:layout_marginLeft="1dp"
-            android:layout_marginTop="20dp"
+            android:layout_width="319dp"
+            android:layout_height="235dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+
             android:hint="Write your complain....."
 
             android:textSize="18sp"
@@ -52,11 +67,11 @@
             android:layout_width="126dp"
             android:layout_height="59dp"
             android:layout_marginLeft="110dp"
-            android:layout_marginTop="500dp"
-            android:textColor="@color/black"
-            android:textStyle="bold"
+            android:layout_marginTop="300dp"
             android:backgroundTint="@color/green1"
-            android:text="Submit" />
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
 
 
     </androidx.cardview.widget.CardView>
