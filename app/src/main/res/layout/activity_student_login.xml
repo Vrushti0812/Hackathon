@@ -4,18 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".StudentLogin"
     android:background="@color/green1">
+=======
+    android:background="@color/green1"
+    tools:context=".StudentLogin">
+>>>>>>> 07706d707044a122bf6a532bacae3685b6f1cd64
 
     <ImageView
-        android:layout_width="137dp"
-        android:layout_height="60dp"
+        android:layout_width="144dp"
+        android:layout_height="51dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/logoblack"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></ImageView>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cdv"
@@ -36,8 +41,8 @@
 
         <LinearLayout
             android:id="@+id/ll"
-            android:layout_width="366dp"
-            android:layout_height="572dp"
+            android:layout_width="360dp"
+            android:layout_height="570dp"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             android:padding="24dp">
