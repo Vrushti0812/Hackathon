@@ -52,7 +52,6 @@ public class HMSStudentPage1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HMSStudentPage1.this, StudentComplaint.class);
                 startActivity(intent);
-//                showComplaintDialog();
             }
         });
         night.setOnClickListener(new View.OnClickListener() {
