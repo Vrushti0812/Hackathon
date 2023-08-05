@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1003232003387",
-    "project_id": "hackday-9451a",
-    "storage_bucket": "hackday-9451a.appspot.com"
+    "project_number": "102500982105",
+    "project_id": "hackday-c6fe2",
+    "storage_bucket": "hackday-c6fe2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1003232003387:android:50df7481e0e48e6381e31e",
+        "mobilesdk_app_id": "1:102500982105:android:504c60af24366b7ef3c048",
         "android_client_info": {
           "package_name": "com.vrushti.hackathon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1003232003387-t8e16ppm8lfkoti4g1hru1glqit51mgn.apps.googleusercontent.com",
+          "client_id": "102500982105-tuunuoc3olt986uqf7qtohd2dp6i9utg.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDow8pFA6kzC9MHSSi8t9yJlP7akSRxgWc"
+          "current_key": "AIzaSyAG1jjYFq4LPI0qQenuFpgmJ4Bz5SjsyAc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1003232003387-t8e16ppm8lfkoti4g1hru1glqit51mgn.apps.googleusercontent.com",
+              "client_id": "102500982105-tuunuoc3olt986uqf7qtohd2dp6i9utg.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
