@@ -50,14 +50,64 @@
             app:cardCornerRadius="40dp"
             app:cardElevation="20dp">
 
-            <Button
-                android:id="@+id/b1"
-                android:layout_width="59dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="135dp"
-                android:layout_marginTop="55dp"
+            <TextView
+                android:id="@+id/lh1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="LH-1"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp" />
 
-                android:backgroundTint="@color/green2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oppcupied : 68%"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Bed : 458"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textV3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Floor : 13"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/textVi6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Rooms : 128"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+
         </androidx.cardview.widget.CardView>
 
 
@@ -76,21 +126,67 @@
             app:cardCornerRadius="40dp"
             app:cardElevation="20dp" >
 
-            <Button
-                android:id="@+id/b2"
-                android:layout_width="59dp"
+            <TextView
+                android:id="@+id/lh2"
+                android:layout_width="51dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="135dp"
-                android:layout_marginTop="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="LH-2"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic" />
 
-                android:backgroundTint="@color/green2" />
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="172dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/lh1" />
 
             <TextView
-                android:layout_width="217dp"
-                android:layout_height="69dp"
-                android:layout_marginTop="40dp"
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oppcupied : 68%"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="170dp"
                 android:textStyle="bold"
-                android:layout_marginLeft="50dp" />
+                android:textSize="17dp"/>
+
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Bed : 458"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Floor : 12"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Rooms : 128"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="170dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+
+
+
 
         </androidx.cardview.widget.CardView>
 
@@ -104,16 +200,72 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             app:cardCornerRadius="40dp"
-            app:cardElevation="20dp" />
+            app:cardElevation="20dp" >
 
-        <Button
-            android:id="@+id/b3"
-            android:layout_width="59dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="55dp"
+            <TextView
+                android:id="@+id/lh3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="LH-3"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_marginLeft="30dp" />
 
-            android:backgroundTint="@color/green2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/lh2" />
+
+            <TextView
+                android:id="@+id/tex4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Oppcupied : 60%"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Bed : 458"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Floor : 10"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Rooms : 128"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="140dp"
+                android:textStyle="bold"
+                android:textSize="17dp"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
     </androidx.cardview.widget.CardView>
 
 
