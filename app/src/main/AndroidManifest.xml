@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Hackathon"
         tools:targetApi="31">
         <activity
+            android:name=".AdminloginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
