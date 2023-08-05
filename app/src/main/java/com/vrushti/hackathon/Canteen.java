@@ -2,8 +2,6 @@ package com.vrushti.hackathon;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -13,6 +11,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -21,7 +20,7 @@ import java.util.zip.Inflater;
 
 public class Canteen extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+
 
 
 EditText e1 , e2 , e3 , e4 , e5,e6;
