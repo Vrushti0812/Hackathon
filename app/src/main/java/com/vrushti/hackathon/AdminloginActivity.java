@@ -36,6 +36,7 @@ public class AdminloginActivity extends AppCompatActivity {
         apassword = findViewById(R.id.password);
         lgin = findViewById(R.id.button);
         img = findViewById(R.id.logo);
+        mAuth = FirebaseAuth.getInstance();
 
         lgin.setOnClickListener(new View.OnClickListener() {
             @Override
