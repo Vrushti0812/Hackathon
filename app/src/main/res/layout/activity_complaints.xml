@@ -18,7 +18,7 @@
         android:background="@color/apbar"
         android:gravity="center"
         android:textAlignment="center"
-        app:title="Hostel Admin"
+        app:title="Complains"
         app:titleTextColor="@color/black"
         app:navigationIcon="@drawable/baseline_arrow_back_24"
         tools:ignore="MissingConstraints" />

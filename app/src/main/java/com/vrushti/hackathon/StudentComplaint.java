@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.FirebaseDatabase;
+
 public class StudentComplaint extends AppCompatActivity {
     EditText textView;
     Button submit;
@@ -27,7 +29,9 @@ public class StudentComplaint extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textView.getText().toString();
+                String text = textView.getText().toString();
+                FirebaseDatabase.getInstance().getReference("Complaints").child("c5").setValue(text);
+
                 Toast.makeText(StudentComplaint.this, "Thank you for your reviews.", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(StudentComplaint.this,HMSStudentPage1.class);
                 startActivity(intent);
